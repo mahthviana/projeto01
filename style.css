@@ -1,0 +1,31 @@
+body{
+    font-family: "Open Sans", "sans-serif";
+
+    text-align: center;
+    margin: 0;
+}
+
+#cleide{
+    width: 348px;
+    margin: 0;
+
+}
+
+#cleide img{
+    margin-bottom: 72px;
+}
+
+h1{
+    font-family: "inter", "Open-sans";
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+span{
+    color: #ff9900;
+}
