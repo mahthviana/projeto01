@@ -1,18 +1,26 @@
 body{
-    font-family: "Open Sans", "sans-serif";
+    font-family: "Open Sans", sans-serif;
+
 
     text-align: center;
     margin: 0;
+
+    background-image: url("./arquivos/bg.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#cleide{
-    width: 348px;
-    margin: 0;
+#info{
+    width: 592px;
+    margin: 0 auto;
+    margin-bottom: 151px;
 
 }
 
-#cleide img{
-    margin-bottom: 72px;
+#info img{
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 h1{
@@ -20,12 +28,39 @@ h1{
     font-size: 49px;
     line-height: 56px;
     font-weight: normal;
+    color: #7D7987;
 }
 
 h1 span{
     font-weight: bold;
+
+    color: #C64132;
 }
 
-span{
-    color: #ff9900;
+span, a{
+    color: #C64132;
+    font-weight: bold
+}
+
+p{
+    color:#7D7987;
+    font-size: 14px;
+    line-height: 28px;
+
+}
+
+.logo{
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+}
+
+#flutter a + a{
+    margin-right: 28px;
+}
+
+.linha{
+    width: 592px;
+    border: solid 2px;
+    color: #7D7987;
 }
