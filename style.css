@@ -60,7 +60,10 @@ p{
 }
 
 .linha{
-    width: 592px;
-    border: solid 2px;
-    color: #7D7987;
+    width: 568px;
+    height: 0;
+  
+    margin: 0 auto 12px;
+  
+    border: 1px #eceff2 dashed;
 }
